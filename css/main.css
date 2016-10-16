@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box
   background-color: #dbd6cf;
-  font-family: bevan, sans-serif;;
+  font-family: Bevan, cursive;
   line-height: 1.5;
 }
 
@@ -10,15 +10,17 @@ html {
   box-sizing: inherit;
 }
 
-.nav {
+.nav a {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #fff;
+  color: #713837;
+  text-decoration: none;
   list-style-type: none;
   text-align: center;
+  font-family: sans-serif;
 }
 
-.nav li {
-  display: inline-block;
-  margin: 0.3em;
-  padding: 0.6em, 0.5em, 0.75em;
-  background-color: #fff;
-  text-align: center;;
+.nav div {
+  text-align: center;
 }
