@@ -15,6 +15,7 @@ html {
   padding: 0.5em 0.75em;
   background-color: #fff;
   color: #713837;
+  border-radius: 4px;
   text-decoration: none;
   list-style-type: none;
   text-align: center;
@@ -23,4 +24,9 @@ html {
 
 .nav div {
   text-align: center;
+}
+
+.cards a:hover {
+  background-color: #f33;
+  color: #fff;
 }
