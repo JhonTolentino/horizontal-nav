@@ -14,3 +14,27 @@ body {
   margin: 0;
   border: 3px solid #595652;
 }
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-family: "Bevan", serif;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0.3em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: square;
+  background-color:#713837;
+  color: #dbd6cf;
+  padding: 0.6em;
+  margin: 0.3em;
+  border-radius: 5px;
+}
