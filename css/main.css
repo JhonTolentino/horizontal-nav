@@ -4,7 +4,7 @@ html {
   font-family: "Bevan";
 }
 
-*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
