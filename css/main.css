@@ -1,32 +1,16 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
-  font-family: Bevan, cursive;
-  line-height: 1.5;
+  background-color:#dbd6cf;
+  font-family: "Bevan";
 }
 
-
-*, *::before, *::after {
+, ::before, *::after {
   box-sizing: inherit;
 }
 
-.nav a {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  background-color: #fff;
-  color: #713837;
-  border-radius: 4px;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-  font-family: sans-serif;
-}
-
-.nav div {
-  text-align: center;
-}
-
-.cards a:hover {
-  background-color: #f33;
-  color: #fff;
+body {
+  background-color: #79756f;
+  color: #dbd6cf;
+  margin: 0;
+  border: 3px solid #595652;
 }
